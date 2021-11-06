@@ -1,3 +1,8 @@
 package com.example.lestclass.model
+import androidx.annotation.DrawableRes
 
-data class book(val stringResourceId: Int)
+
+//// add mutable string and image //
+
+data class book(val stringResourceId: Int,
+                @DrawableRes val imageResourceId: Int)
